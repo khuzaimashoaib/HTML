@@ -1,0 +1,92 @@
+body {
+    font-family: Arial;
+    margin: 0; /* Amount of negative space around the outside of the body */
+    padding: 0; /* Amount of negative space around the inside of the body */
+}
+/* ----------------------------- HEADER ---------------------------- */
+#header h1 {
+    margin: 0;
+    padding: 0;
+}
+#header h1 a {
+    background-color: #ccc;
+    border-bottom: 1px solid #666;
+    color: #222;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+}
+#header h1 a {
+    text-shadow: 0px 1px 0px #fff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#999));
+}
+#header div.leftButton {
+    position: absolute;
+    top: 7px;
+    left: 6px;
+    height: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: rgba(0,0,0,0.6) 0px -1px 0px;
+    line-height: 28px;
+    border-width: 0 8px 0 8px;
+}
+/* ----------------------------- CONTENT ---------------------------- */
+#content ul {
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+}
+#content ul li a {
+    background-color: #FFFFFF;
+    border: 1px solid #999999;
+    color: #222222;
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: -1px;
+    padding: 12px 10px;
+    text-decoration: none;
+}
+#content {
+    padding: 10px;
+
+}  
+#content ul li:first-child a {
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+}
+#content ul li:last-child a {
+    -webkit-border-bottom-left-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+}
+.butns{
+    text-align: center;
+}
+#butn{
+	width: 300px;
+	height: 50px;
+	font-family:Verdana;
+}
+#butn2{
+	width: 130px;
+	height: 50px;
+	font-family:Verdana;
+}
+/* ----------------------------- FOOTER ---------------------------- */
+#footer {
+   position: absolute;
+   bottom:0;
+   width:100%;
+   height:40px;   /* Height of the footer */
+   text-shadow: 0px 1px 0px #fff;
+   background-image: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#999));
+}   
+#footer h4{
+    text-align: center;
+    margin-top: 10px;
+}
